@@ -1,0 +1,122 @@
+#welcome {
+    color: #FFFFFF;
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+body
+{
+        text-align: center;
+}
+
+h1 , h2, h3, h6
+{
+    color: white;
+    font-size: 20px;
+}
+
+p
+{
+    font-size: 20px;
+    color: white;
+}
+.arrows
+{
+   width: 48px;
+   height: 48px;
+   border-color: #000;
+   position: absolute;
+   top: 50%;
+   margin-top: -31px;
+}
+.prev
+{
+   border-bottom: 6px solid;
+   border-left: 6px solid;
+   transform: rotate(45deg);
+   left: 10px;
+}
+   
+.next
+{
+   border-bottom: 6px solid;
+   border-left: 6px solid;
+   transform: rotate(-135deg);
+   right: 10px;
+}
+carousel-content{
+    height: 850px;
+    width:50px;
+}
+.size{
+    height: 320px;
+    width:200px;
+}
+  
+.previous_button
+{
+    margin-right: 20px;
+    background-color: #f1f1f1;
+    color: black;
+    padding: 8px 16px;
+    box-shadow: 5px 5px #888888;
+    border:none;
+}
+
+.next_button
+{
+    margin-left: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    box-shadow: 5px 5px #888888;
+    border:none;
+}
+
+#myCarousel
+{
+    margin-bottom: 70px;
+    width: 100%;
+    background-color: green;
+}
+
+#myCarousel img
+{
+    height: 300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p
+{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color : white;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+#myCarouse2
+{
+    width: 100%;
+    background-color: #b5d0d4;
+}
+
+#myCarouse2 img
+{
+    height: 300px;
+    margin-top: 35px;
+}
+
+.con1 {
+    width: 90;
+}
+
+h5
+{
+    float: left;
+    font-size: 18px;
+    color: white;
+}
